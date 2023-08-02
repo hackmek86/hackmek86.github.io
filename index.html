@@ -5,16 +5,15 @@
   <p>Clicks: <a id="clicks">0</a></p>
 </head>
 
+
+
 <script>
-  
-   var open = 0; 
-   function onClick() {
-  open += 1;
-  document.getElementById("open").innerHTML = open;
+  var clicks = 0;
+
+  function onClick() {
+    clicks += 1;
+    document.getElementById("clicks").innerHTML = clicks;
   };
-   if (open > 1) {
-    open  = 0;
-  } 
 </script>
 
 
